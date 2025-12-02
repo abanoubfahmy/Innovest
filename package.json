@@ -2,17 +2,21 @@
   "name": "innovest",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://abanoubfahmy.github.io/Innovest",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "bootstrap": "^5.3.2",
     "chart.js": "^4.5.1",
+    "gh-pages": "^6.3.0",
     "htmltojsx": "^0.3.0",
     "react": "^19.2.0",
     "react-chartjs-2": "^5.3.1",
