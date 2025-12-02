@@ -74,7 +74,7 @@ form input {
 .main-btn {
   width: 100%;
   padding: 12px;
-  background: #c3a675;
+  background: #43b581;
   color: white;
   border: none;
   border-radius: 30px;
@@ -83,29 +83,8 @@ form input {
   cursor: pointer;
 }
 
-/* GOOGLE BUTTON */
-.google-btn {
-  width: 100%;
-  padding: 12px;
-  background: #db4437;
-  color: white;
-  border: none;
-  border-radius: 30px;
-  margin-top: 10px;
-  cursor: pointer;
-}
 
-/* FACEBOOK BUTTON */
-.facebook-btn {
-  width: 100%;
-  padding: 12px;
-  background: #1877f2;
-  color: white;
-  border: none;
-  border-radius: 30px;
-  margin-top: 10px;
-  cursor: pointer;
-}
+
 
 .bottom-text {
   margin-top: 20px;

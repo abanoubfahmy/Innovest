@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul className="navbar-nav me-3">
             {userType === null && (
               <li className="nav-item">
-                <Link className="nav-link" to="/login">Login</Link>
+                <Link className="nav-link" to="/signup">Signup</Link>
               </li>
             )}
             {(userType === "startup" || userType === "investor" || userType === "admin") && (
