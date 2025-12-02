@@ -1,0 +1,189 @@
+{
+  "siteInfo": {
+    "name": "Innovest",
+    "tagline": "Connect Investors with the Next Big Idea",
+    "description": "Innovest is the leading platform connecting innovative startups with forward-thinking investors in the MENA region and beyond.",
+    "logo": "https://i.ibb.co/0jY7Z8p/innovest-logo.png",
+    "copyright": "© 2025 Innovest. All rights reserved.",
+    "founded": "2024",
+    "headquarters": "Cairo, Egypt"
+  },
+
+  "navigation": [
+    { "id": 1, "label": "Home", "url": "/", "icon": "fas fa-home" },
+    { "id": 2, "label": "Discover", "url": "/discover", "icon": "fas fa-search" },
+    { "id": 3, "label": "About Us", "url": "/about", "icon": "fas fa-info-circle" },
+    { "id": 4, "label": "Contact", "url": "/contact", "icon": "fas fa-envelope" }
+  ],
+
+  "socialMedia": [
+    { "platform": "LinkedIn", "icon": "fab fa-linkedin", "url": "https://linkedin.com/company/innovest", "followers": "12.5K" },
+    { "platform": "Twitter", "icon": "fab fa-twitter", "url": "https://twitter.com/innovest", "followers": "8.2K" },
+    { "platform": "Facebook", "icon": "fab fa-facebook", "url": "https://facebook.com/innovest", "followers": "15K" },
+    { "platform": "Instagram", "icon": "fab fa-instagram", "url": "https://instagram.com/innovest", "followers": "22K" }
+  ],
+
+  "footerLinks": {
+    "quickLinks": [
+      { "label": "Home", "url": "/" },
+      { "label": "Discover", "url": "/discover" },
+      { "label": "About Us", "url": "/about" },
+      { "label": "Contact", "url": "/contact" }
+    ],
+    "legalLinks": [
+      { "label": "Privacy Policy", "url": "/privacy" },
+      { "label": "Terms of Service", "url": "/terms" },
+      { "label": "Cookie Policy", "url": "/cookies" }
+    ]
+  },
+
+  "featuredStartups": [
+    {
+      "id": 1,
+      "name": "TechFlow AI",
+      "slogan": "Automate Everything with AI",
+      "description": "Next-gen AI workflow automation for enterprises",
+      "category": "Artificial Intelligence",
+      "industry": "SaaS",
+      "fundingGoal": 750000,
+      "fundingRaised": 480000,
+      "fundingPercentage": 64,
+      "investors": 34,
+      "stage": "Seed",
+      "location": "Cairo, Egypt",
+      "website": "https://techflow.ai",
+      "image": "https://i.ibb.co.com/9b6vL2m/techflow-cover.jpg",
+      "logo": "https://i.ibb.co.com/7zP5nR4/techflow-logo.png",
+      "verified": true,
+      "featured": true,
+      "tags": ["AI", "Automation", "B2B", "Enterprise", "No-Code"]
+    },
+    {
+      "id": 2,
+      "name": "MedConnect",
+      "slogan": "Healthcare for Everyone",
+      "description": "Telemedicine platform connecting patients with doctors instantly",
+      "category": "HealthTech",
+      "industry": "Healthcare",
+      "fundingGoal": 1200000,
+      "fundingRaised": 980000,
+      "fundingPercentage": 82,
+      "investors": 58,
+      "stage": "Series A",
+      "location": "Dubai, UAE",
+      "website": "https://medconnect.health",
+      "image": "https://i.ibb.co.com/L8xK7pQ/medconnect-cover.jpg",
+      "logo": "https://i.ibb.co.com/5YkJ9vR/medconnect-logo.png",
+      "verified": true,
+      "featured": true,
+      "tags": ["Health", "Telemedicine", "Mobile", "B2C", "AI"]
+    },
+    {
+      "id": 3,
+      "name": "GreenVolt",
+      "slogan": "Power the Future with Solar",
+      "description": "Affordable solar energy solutions for homes and businesses",
+      "category": "Clean Energy",
+      "industry": "Renewable Energy",
+      "fundingGoal": 2000000,
+      "fundingRaised": 900000,
+      "fundingPercentage": 45,
+      "investors": 42,
+      "stage": "Pre-Seed",
+      "location": "Riyadh, Saudi Arabia",
+      "website": "https://greenvolt.energy",
+      "image": "https://i.ibb.co.com/7zXvP9k/greenvolt-cover.jpg",
+      "logo": "https://i.ibb.co.com/3rT5mN2/greenvolt-logo.png",
+      "verified": false,
+      "featured": true,
+      "tags": ["Solar", "Sustainability", "Energy", "IoT", "Hardware"]
+    },
+    {
+      "id": 4,
+      "name": "EduLearn Pro",
+      "slogan": "Learn Arabic with AI",
+      "description": "AI-powered Arabic language learning platform",
+      "category": "EdTech",
+      "industry": "Education",
+      "fundingGoal": 500000,
+      "fundingRaised": 420000,
+      "fundingPercentage": 84,
+      "investors": 29,
+      "stage": "Seed",
+      "location": "Amman, Jordan",
+      "website": "https://edulearn.pro",
+      "image": "https://i.ibb.co.com/4pY8m3t/edulearn-cover.jpg",
+      "logo": "https://i.ibb.co.com/3d7vKpN/edulearn-logo.png",
+      "verified": true,
+      "featured": false,
+      "tags": ["EdTech", "AI", "Arabic", "Mobile", "Gamification"]
+    },
+    {
+      "id": 5,
+      "name": "PayFast",
+      "slogan": "Digital Payments Made Simple",
+      "description": "Fast and secure digital wallet for the Middle East",
+      "category": "FinTech",
+      "industry": "Financial Services",
+      "fundingGoal": 3000000,
+      "fundingRaised": 2100000,
+      "fundingPercentage": 70,
+      "investors": 67,
+      "stage": "Series A",
+      "location": "Beirut, Lebanon",
+      "website": "https://payfast.me",
+      "image": "https://i.ibb.co.com/fL8x9mD/payfast-cover.jpg",
+      "logo": "https://i.ibb.co.com/8vNc3Qp/payfast-logo.png",
+      "verified": true,
+      "featured": true,
+      "tags": ["FinTech", "Payments", "Wallet", "Blockchain"]
+    }
+  ],
+
+  "platformStats": {
+    "totalFundingFacilitated": "$87M",
+    "successfulDeals": 156,
+    "averageDealTime": "41 days",
+    "investorSatisfaction": "94%",
+    "startupSatisfaction": "91%",
+    "countriesServed": 12
+  },
+
+  "investorDashboard": {
+    "totalInvestment": 3200000,
+    "portfolioValue": 5100000,
+    "investedStartups": 12,
+    "monthlyGrowth": 3.2,
+    "roi": "186%",
+    "portfolioDistribution": {
+      "AI": 45,
+      "HealthTech": 30,
+      "FinTech": 15,
+      "Other": 10
+    },
+    "recentActivity": [
+      {
+        "type": "investment",
+        "startup": "EcoGenius Solutions",
+        "amount": 250000,
+        "date": "2025-11-18",
+        "status": "completed",
+        "roi": "+28%"
+      },
+      {
+        "type": "dividend",
+        "startup": "PayFast",
+        "amount": 18000,
+        "date": "2025-11-05",
+        "status": "received"
+      }
+    ]
+  },
+
+  "stats": {
+    "totalStartups": 342,
+    "totalFunding": "$87M",
+    "successfulDeals": 156,
+    "countries": 12
+  }
+}

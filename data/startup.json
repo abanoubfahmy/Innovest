@@ -1,0 +1,28 @@
+{
+  "name": "AI Smart Vision",
+  "tags": ["Computer Vision", "Smart Monitoring", "AI Analytics"],
+  "verified": true,
+  "description": "Intelligent computer vision solutions to enhance facility monitoring and reduce human errors using ML and Edge Computing.",
+  "funding": 80000,
+  "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+  "agreement": {
+    "equity": "8%",
+    "requested": 80000,
+    "milestones": true,
+    "confidential": true,
+    "status": "Not Signed"
+  },
+  "stats": [
+    { "label": "Users", "value": 20290 },
+    { "label": "Active Trials", "value": 1120 }
+  ],
+"gallery": [
+  "https://picsum.photos/id/1011/300/160",
+  "https://picsum.photos/id/1012/300/160",
+  "https://picsum.photos/id/1013/300/160",
+  "https://picsum.photos/id/1015/300/160",
+  "https://picsum.photos/id/1016/300/160",
+  "https://picsum.photos/id/1018/300/160"
+]
+
+}

@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "totalUsers": 20290,
+    "pendingApps": 5120,
+    "fundedDeals": 123099450
+  },
+  "activity": [
+    {
+      "name": "Leo Messi",
+      "action": "reviewed a startup profile",
+      "img": "https://i.pravatar.cc/40?img=10"
+    },
+    {
+      "name": "Ali Maaloul",
+      "action": "downloaded a pitch deck",
+      "img": "https://i.pravatar.cc/40?img=12"
+    }
+  ],
+  "startups": [
+    {
+      "name": "Quantum Solup AI",
+      "status": "Submitted for review",
+      "img": "https://i.pravatar.cc/45?img=1",
+      "approved": true
+    },
+    {
+      "name": "MediFlow Health",
+      "status": "Submitted for review",
+      "img": "https://i.pravatar.cc/45?img=4",
+      "approved": true
+    }
+  ],
+  "summary": {
+    "totalUsers": 20290,
+    "pendingApps": 5120,
+    "fundedDeals": 123099450
+  }
+}

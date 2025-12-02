@@ -1,0 +1,197 @@
+/* ==========================
+   Contact.css - Modern Design
+   ========================== */
+
+/* ---------- Global Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* ---------- Contact Container ---------- */
+.contact {
+  display: flex;
+  max-width: 900px;
+  margin: 4rem auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Sidebar ---------- */
+.contact .sidebar {
+  background-color: #1a4d5e;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+.contact .info-box {
+  background-color: #3d3d3d;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.contact .info-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.contact .info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  color: white;
+  font-size: 13px;
+}
+
+.contact .info-item i {
+  margin-right: 12px;
+  font-size: 14px;
+  width: 18px;
+}
+
+.contact .info-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact .social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact .social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a4d5e;
+  font-size: 18px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.contact .social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* ---------- Main Content ---------- */
+.contact .main-content {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0b1723;
+}
+
+.contact-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 35px;
+  line-height: 1.5;
+}
+
+/* ---------- Form ---------- */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  background-color: #f8f9fa;
+  color: #0b1723;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-input:focus {
+  border-color: #1a4d5e;
+  box-shadow: 0 0 0 3px rgba(26,77,94,0.1);
+}
+
+/* ---------- Textarea ---------- */
+.form-input.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* ---------- Send Button ---------- */
+.send-btn {
+  background-color: #1a4d5e;
+  color: white;
+  border: none;
+  padding: 12px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  align-self: flex-start;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.send-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(26,77,94,0.2);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .main-content {
+    padding: 30px 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+}
