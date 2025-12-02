@@ -1,0 +1,39 @@
+{
+  "investor": {
+   
+    "investmentAmount": 250000,
+    "projectsCount": 5,
+    "activity": [
+      {
+        "date": "2025-01-01",
+        "action": "Invested in Project A",
+        "amount": 50000
+      },
+      {
+        "date": "2025-02-15",
+        "action": "Invested in Project B",
+        "amount": 70000
+      },
+      {
+        "date": "2025-03-10",
+        "action": "Invested in Project C",
+        "amount": 50000
+      },
+      {
+        "date": "2025-04-20",
+        "action": "Invested in Project D",
+        "amount": 30000
+      },
+      {
+        "date": "2025-05-05",
+        "action": "Invested in Project E",
+        "amount": 50000
+      }
+    ],
+    "chartData": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+      "investedAmount": [50000, 120000, 170000, 200000, 250000],
+      "projectsCount": [1, 2, 3, 4, 5]
+    }
+  }
+}

@@ -1,46 +1,20 @@
 
+import Navbar from "../component/Navbar";
+import "../styles/Aboutus.css";
+import Hero from "../assets/heropage.png"
 
 const AboutPage = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src="img/Logo.png" alt="Innovest Logo" />
-            Innovest
-          </a>
-
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul className="navbar-nav me-3">
-              <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">Discover</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">About Us</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
-            </ul>
-
-            <button className="btn-login">Log in</button>
-            <button className="btn-signup">Sign up</button>
-          </div>
-        </div>
-      </nav>
-
+    <Navbar />
       {/* Hero Section */}
       <div className="hero-section">
-        <img src="img/hero-page.png" alt="Hero Image" className="hero-image" />
+        <img src={Hero} alt="Hero Image" className="hero-image img-fluid" />
       </div>
 
       {/* Story Title */}
-      <div className="section-title">Our Story</div>
+      <div className="section-title ml-5">Our Story</div>
 
       {/* Content Boxes */}
       <div className="content-boxes">
