@@ -2,6 +2,7 @@
 import Navbar from "../component/Navbar";
 import "../styles/Aboutus.css";
 import Hero from "../assets/heropage.png"
+import Footer from "../component/Footer";
 
 const AboutPage = () => {
   return (
@@ -66,6 +67,7 @@ const AboutPage = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

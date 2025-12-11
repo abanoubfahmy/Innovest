@@ -6,6 +6,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
  
   const [userType] = useState<string | null>(() => localStorage.getItem("userType"));
+  // const{isLoggedin,setLoggedin}=useState<boolean>(false);
+  const handlelogout=()=>{
+    localStorage.removeItem("userType")
+    window.location.href="/";
+  }
 
   return (
     <nav className="navbar navbar-expand-lg">
@@ -27,14 +32,17 @@ const Navbar = () => {
           <ul className="navbar-nav me-3">
             {userType === null && (
               <li className="nav-item">
-                <Link className="nav-link" to="/signup">Signup</Link>
+                <Link className="nav-link" to="/signup">Login</Link>
+                
               </li>
             )}
             {(userType === "startup" || userType === "investor" || userType === "admin") && (
               <li className="nav-item">
                 <Link className="nav-link" to="/">
+  
                   Home
                 </Link>
+                <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
 
@@ -43,14 +51,16 @@ const Navbar = () => {
                 <Link className="nav-link" to="/discover">
                   Discover
                 </Link>
+                 <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
 
-            {(userType === "admin" || userType === "investor") && (
+            {(userType === "admin" || userType === "investor" || userType === "startup") && (
               <li className="nav-item">
                 <Link className="nav-link" to="/aboutus">
                   About Us
                 </Link>
+                 <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
 
@@ -59,6 +69,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
+                 <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
 
@@ -67,6 +78,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="/startupProfile">
                   Startup Profile
                 </Link>
+                 <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
 
@@ -75,6 +87,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="/investorDashboard">
                   Investor Dashboard
                 </Link>
+                 <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
 
@@ -84,6 +97,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="/adminDashboard">
                   Admin Dashboard
                   </Link>
+                   <Link className="nav-link" to="/" onClick={handlelogout}>logout</Link>
               </li>
             )}
           </ul>

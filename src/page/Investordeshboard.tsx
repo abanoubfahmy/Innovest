@@ -83,7 +83,7 @@ const Investordeshboard = () => {
                   tension: 0.3,
                 },
                 {
-                  label: "Investment rateذ",
+                  label: "Investment rate",
                   data: data.investor.chartData.projectsCount,
                   fill: false,
                   tension: 0.3,
